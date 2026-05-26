@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use FMScope, please cite the accompanying paper."
+title: "FMScope: companion code for The Identity Trap in EEG Foundation Models — A Diagnostic Audit"
+version: 0.1.0
+date-released: 2026-05-26
+license: MIT
+type: software
+authors:
+  - name: "Anonymous"
+preferred-citation:
+  type: article
+  title: "The Identity Trap in EEG Foundation Models: A Diagnostic Audit"
+  authors:
+    - name: "Anonymous"
+  year: 2026
+  status: in-review

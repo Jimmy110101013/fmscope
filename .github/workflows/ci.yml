@@ -1,0 +1,62 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.11"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+
+      - name: Install CPU torch
+        run: |
+          pip install --upgrade pip
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+
+      - name: Install fmscope
+        run: pip install -e ".[dev,fms]"
+
+      - name: Lint (ruff)
+        run: |
+          ruff check src/ tests/
+          ruff format --check src/ tests/
+
+      - name: Type-check public surface (mypy)
+        run: mypy src/fmscope/api.py src/fmscope/verdict src/fmscope/diagnostics
+        continue-on-error: true  # Permitted to warn during bootstrap; tightens later.
+
+      - name: Unit tests
+        run: pytest tests/ -m "not slow" -q
+
+      - name: CLI smoke
+        run: |
+          python -m fmscope.verdict --help
+          python -m fmscope.verdict --out /tmp/verdict.md
+          cat /tmp/verdict.md
+
+      - name: BYO examples
+        run: |
+          python examples/byo_fm_minimal.py
+          python examples/byo_dataset_minimal.py
+
+      - name: Tutorial notebook execution
+        run: |
+          papermill notebooks/tutorials/01_quickstart.ipynb /tmp/q.ipynb -k python3
+          papermill notebooks/paper/tab2_master.ipynb /tmp/t.ipynb -k python3
+
+      - name: Anonymization scrub gate
+        run: python scripts/scrub_check.py --strict

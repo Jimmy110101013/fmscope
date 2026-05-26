@@ -1,0 +1,50 @@
+{
+  "delta_label_frac_pp": {
+    "U": 35.0,
+    "p_one_sided": 0.0021645021645021645,
+    "p_two_sided": 0.004329004329004329,
+    "rank_biserial_r": 0.9444444444444444
+  },
+  "delta_cka_label": {
+    "U": 32.0,
+    "p_one_sided": 0.012987012987012988,
+    "p_two_sided": 0.025974025974025976,
+    "rank_biserial_r": 0.7777777777777777
+  },
+  "n_prior": 6,
+  "n_no_prior": 6,
+  "prior_cells": [
+    "adftd",
+    "eegmat"
+  ],
+  "no_prior_cells": [
+    "sleepdep",
+    "stress"
+  ],
+  "mixed_effects": {
+    "note": "delta_label_pp ~ column + (1|cell) + (1|fm), REML, statsmodels 0.14",
+    "fixed_effect_pp": 4.432,
+    "se_pp": 1.405,
+    "ci95_pp": [
+      1.677,
+      7.186
+    ],
+    "z": 3.154,
+    "p_two_sided": 0.0016,
+    "random_var_cell_pp2": 0.278,
+    "random_var_fm_pp2": 3.756,
+    "n_obs": 12
+  },
+  "cell_level_permutation": {
+    "note": "Average across 3 FMs per cell, then exact permutation over C(4,2)=6 splits",
+    "cell_means_pp": {
+      "eegmat_prior": 4.275,
+      "adftd_prior": 4.129,
+      "sleepdep_no_prior": -0.755,
+      "stress_no_prior": 0.295
+    },
+    "observed_diff_pp": 4.432,
+    "exact_p_one_sided": 0.1667,
+    "note_power": "Floor = 1/6 ~= 0.167 by design at n=2 vs n=2; reported for transparency"
+  }
+}

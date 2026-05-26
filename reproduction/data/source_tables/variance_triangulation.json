@@ -1,0 +1,396 @@
+{
+  "cells": [
+    {
+      "cell": "eegmat",
+      "fms": [
+        {
+          "fm": "labram",
+          "trace_anova": {
+            "frozen_label_pct": 1.2633907722969395,
+            "ft_label_pct": 9.681481434537789,
+            "delta_label_pp": 8.418090662240848,
+            "frozen_subject_pct": 26.84616188580819,
+            "ft_subject_pct": 45.40339444419166,
+            "delta_subject_pp": 18.557232558383475,
+            "label_design": "within_subject"
+          },
+          "permanova": {
+            "frozen_label_pct": 2.4377480199613157,
+            "ft_label_pct": 13.923537578001671,
+            "delta_label_pp": 11.485789558040356,
+            "frozen_subject_pct": 50.74627343018041,
+            "ft_subject_pct": 55.98778920486345,
+            "delta_subject_pp": 5.2415157746830365,
+            "p_label_frozen": 0.001,
+            "p_label_ft": 0.001,
+            "design": "within_subject"
+          },
+          "cka": {
+            "frozen_cka_label": 0.04910392336131528,
+            "ft_cka_label": 0.15274160563212477,
+            "delta_cka_label": 0.1036376822708095,
+            "frozen_cka_subject": 0.1764990136232337,
+            "ft_cka_subject": 0.12153803949890231,
+            "delta_cka_subject": -0.05496097412433139
+          }
+        },
+        {
+          "fm": "cbramod",
+          "trace_anova": {
+            "frozen_label_pct": 1.0531307642833132,
+            "ft_label_pct": 2.5911220822829866,
+            "delta_label_pp": 1.5379913179996734,
+            "frozen_subject_pct": 29.558095234629878,
+            "ft_subject_pct": 60.25156772858599,
+            "delta_subject_pp": 30.693472493956108,
+            "label_design": "within_subject"
+          },
+          "permanova": {
+            "frozen_label_pct": 2.0875841145514045,
+            "ft_label_pct": 4.310655334964486,
+            "delta_label_pp": 2.2230712204130816,
+            "frozen_subject_pct": 54.72108983546771,
+            "ft_subject_pct": 66.40237064461702,
+            "delta_subject_pp": 11.68128080914932,
+            "p_label_frozen": 0.001,
+            "p_label_ft": 0.001,
+            "design": "within_subject"
+          },
+          "cka": {
+            "frozen_cka_label": 0.03510364031225301,
+            "ft_cka_label": 0.0640220719775105,
+            "delta_cka_label": 0.028918431665257496,
+            "frozen_cka_subject": 0.16687352980257014,
+            "ft_cka_subject": 0.2517567524209438,
+            "delta_cka_subject": 0.08488322261837367
+          }
+        },
+        {
+          "fm": "reve",
+          "trace_anova": {
+            "frozen_label_pct": 1.7534256930243273,
+            "ft_label_pct": 4.621957356016953,
+            "delta_label_pp": 2.8685316629926256,
+            "frozen_subject_pct": 29.739878042269275,
+            "ft_subject_pct": 50.03014642232715,
+            "delta_subject_pp": 20.290268380057874,
+            "label_design": "within_subject"
+          },
+          "permanova": {
+            "frozen_label_pct": 2.9693737232885313,
+            "ft_label_pct": 7.6760605636442065,
+            "delta_label_pp": 4.706686840355675,
+            "frozen_subject_pct": 48.91318590315906,
+            "ft_subject_pct": 77.62269908666511,
+            "delta_subject_pp": 28.709513183506054,
+            "p_label_frozen": 0.001,
+            "p_label_ft": 0.001,
+            "design": "within_subject"
+          },
+          "cka": {
+            "frozen_cka_label": 0.05961577815968215,
+            "ft_cka_label": 0.12344079454789379,
+            "delta_cka_label": 0.06382501638821164,
+            "frozen_cka_subject": 0.17027283481505903,
+            "ft_cka_subject": 0.22629278504403486,
+            "delta_cka_subject": 0.05601995022897582
+          }
+        }
+      ]
+    },
+    {
+      "cell": "sleepdep",
+      "fms": [
+        {
+          "fm": "labram",
+          "trace_anova": {
+            "frozen_label_pct": 0.46588531776179404,
+            "ft_label_pct": 0.34896284668216826,
+            "delta_label_pp": -0.11692247107962578,
+            "frozen_subject_pct": 30.834347098823933,
+            "ft_subject_pct": 51.274052978577146,
+            "delta_subject_pp": 20.439705879753213,
+            "label_design": "within_subject"
+          },
+          "permanova": {
+            "frozen_label_pct": 0.9742936237445297,
+            "ft_label_pct": 0.34957185816724273,
+            "delta_label_pp": -0.624721765577287,
+            "frozen_subject_pct": 66.45189171590326,
+            "ft_subject_pct": 72.49543073222551,
+            "delta_subject_pp": 6.0435390163222635,
+            "p_label_frozen": 0.001,
+            "p_label_ft": 0.001,
+            "design": "within_subject"
+          },
+          "cka": {
+            "frozen_cka_label": 0.011830847453090947,
+            "ft_cka_label": 0.008369170027420235,
+            "delta_cka_label": -0.003461677425670712,
+            "frozen_cka_subject": 0.1328877445378883,
+            "ft_cka_subject": 0.20814796601445412,
+            "delta_cka_subject": 0.07526022147656583
+          }
+        },
+        {
+          "fm": "cbramod",
+          "trace_anova": {
+            "frozen_label_pct": 0.51774632418432,
+            "ft_label_pct": 0.25759711569585225,
+            "delta_label_pp": -0.2601492084884677,
+            "frozen_subject_pct": 39.26950139647387,
+            "ft_subject_pct": 49.351308259206164,
+            "delta_subject_pp": 10.08180686273229,
+            "label_design": "within_subject"
+          },
+          "permanova": {
+            "frozen_label_pct": 1.092816124777558,
+            "ft_label_pct": 0.2728764637069568,
+            "delta_label_pp": -0.8199396610706011,
+            "frozen_subject_pct": 69.30356891607764,
+            "ft_subject_pct": 78.15881343327386,
+            "delta_subject_pp": 8.855244517196226,
+            "p_label_frozen": 0.001,
+            "p_label_ft": 0.001,
+            "design": "within_subject"
+          },
+          "cka": {
+            "frozen_cka_label": 0.01371503509768628,
+            "ft_cka_label": 0.005182534988007706,
+            "delta_cka_label": -0.008532500109678574,
+            "frozen_cka_subject": 0.17487850150833864,
+            "ft_cka_subject": 0.1683183741288777,
+            "delta_cka_subject": -0.006560127379460934
+          }
+        },
+        {
+          "fm": "reve",
+          "trace_anova": {
+            "frozen_label_pct": 2.171912499409667,
+            "ft_label_pct": 0.28466952999810785,
+            "delta_label_pp": -1.8872429694115591,
+            "frozen_subject_pct": 32.44508767437817,
+            "ft_subject_pct": 51.18256060098827,
+            "delta_subject_pp": 18.7374729266101,
+            "label_design": "within_subject"
+          },
+          "permanova": {
+            "frozen_label_pct": 4.9643261917145995,
+            "ft_label_pct": 0.2280536412637616,
+            "delta_label_pp": -4.736272550450838,
+            "frozen_subject_pct": 78.48171070672022,
+            "ft_subject_pct": 83.6216212286308,
+            "delta_subject_pp": 5.1399105219105845,
+            "p_label_frozen": 0.001,
+            "p_label_ft": 0.001,
+            "design": "within_subject"
+          },
+          "cka": {
+            "frozen_cka_label": 0.057279593179416326,
+            "ft_cka_label": 0.007546804010263628,
+            "delta_cka_label": -0.0497327891691527,
+            "frozen_cka_subject": 0.1449173391174431,
+            "ft_cka_subject": 0.23007745671195787,
+            "delta_cka_subject": 0.08516011759451478
+          }
+        }
+      ]
+    },
+    {
+      "cell": "stress",
+      "fms": [
+        {
+          "fm": "labram",
+          "trace_anova": {
+            "frozen_label_pct": 2.9198447618934495,
+            "ft_label_pct": 2.4646733096429236,
+            "delta_label_pp": -0.45517145225052597,
+            "frozen_subject_pct": 20.746636287821293,
+            "ft_subject_pct": 52.75081237037711,
+            "delta_subject_pp": 32.004176082555816,
+            "label_design": "between_subject"
+          },
+          "permanova": {
+            "frozen_label_pct": 5.996231920249364,
+            "ft_label_pct": 1.7646344440756616,
+            "delta_label_pp": -4.231597476173701,
+            "frozen_subject_pct": 30.984472943195744,
+            "ft_subject_pct": 45.03369323096118,
+            "delta_subject_pp": 14.049220287765435,
+            "p_label_frozen": 0.165,
+            "p_label_ft": 0.647,
+            "design": "subject_trait"
+          },
+          "cka": {
+            "frozen_cka_label": 0.0986931023444393,
+            "ft_cka_label": 0.04914590101665336,
+            "delta_cka_label": -0.04954720132778594,
+            "frozen_cka_subject": 0.2104343285059095,
+            "ft_cka_subject": 0.3184204614761895,
+            "delta_cka_subject": 0.10798613297028001
+          }
+        },
+        {
+          "fm": "cbramod",
+          "trace_anova": {
+            "frozen_label_pct": 1.4413708433947618,
+            "ft_label_pct": 2.2431630532816675,
+            "delta_label_pp": 0.8017922098869059,
+            "frozen_subject_pct": 18.461533477664034,
+            "ft_subject_pct": 81.17115054333422,
+            "delta_subject_pp": 62.70961706567019,
+            "label_design": "between_subject"
+          },
+          "permanova": {
+            "frozen_label_pct": 2.0110188533302042,
+            "ft_label_pct": 1.9570438584442602,
+            "delta_label_pp": -0.05397499488594415,
+            "frozen_subject_pct": 31.63306329395018,
+            "ft_subject_pct": 72.90115191671325,
+            "delta_subject_pp": 41.26808862276307,
+            "p_label_frozen": 0.477,
+            "p_label_ft": 0.957,
+            "design": "subject_trait"
+          },
+          "cka": {
+            "frozen_cka_label": 0.04403729979221832,
+            "ft_cka_label": 0.0446931853195526,
+            "delta_cka_label": 0.0006558855273342823,
+            "frozen_cka_subject": 0.1706089637047206,
+            "ft_cka_subject": 0.5638770364502786,
+            "delta_cka_subject": 0.3932680727455581
+          }
+        },
+        {
+          "fm": "reve",
+          "trace_anova": {
+            "frozen_label_pct": 2.0927803447227973,
+            "ft_label_pct": 2.6312458403971477,
+            "delta_label_pp": 0.5384654956743506,
+            "frozen_subject_pct": 20.69453390330838,
+            "ft_subject_pct": 63.99844827633401,
+            "delta_subject_pp": 43.303914373025634,
+            "label_design": "between_subject"
+          },
+          "permanova": {
+            "frozen_label_pct": 2.9588809621324996,
+            "ft_label_pct": 2.7309020241749287,
+            "delta_label_pp": -0.22797893795757085,
+            "frozen_subject_pct": 27.821623558751597,
+            "ft_subject_pct": 73.46523962353031,
+            "delta_subject_pp": 45.64361606477871,
+            "p_label_frozen": 0.417,
+            "p_label_ft": 0.933,
+            "design": "subject_trait"
+          },
+          "cka": {
+            "frozen_cka_label": 0.06524971582720947,
+            "ft_cka_label": 0.05287694394204383,
+            "delta_cka_label": -0.01237277188516564,
+            "frozen_cka_subject": 0.20599073200695966,
+            "ft_cka_subject": 0.48502520378295827,
+            "delta_cka_subject": 0.2790344717759986
+          }
+        }
+      ]
+    },
+    {
+      "cell": "adftd",
+      "fms": [
+        {
+          "fm": "labram",
+          "trace_anova": {
+            "frozen_label_pct": 6.646955063994119,
+            "ft_label_pct": 13.284305755713119,
+            "delta_label_pp": 6.637350691719,
+            "frozen_subject_pct": 55.40062314594913,
+            "ft_subject_pct": 78.86516577562595,
+            "delta_subject_pp": 23.46454262967682,
+            "label_design": "between_subject"
+          },
+          "permanova": {
+            "frozen_label_pct": 11.713769511481393,
+            "ft_label_pct": 19.118594262775797,
+            "delta_label_pp": 7.404824751294405,
+            "frozen_subject_pct": 66.89929216070641,
+            "ft_subject_pct": 61.5810514315145,
+            "delta_subject_pp": -5.318240729191914,
+            "p_label_frozen": 0.001,
+            "p_label_ft": 0.001,
+            "design": "subject_trait"
+          },
+          "cka": {
+            "frozen_cka_label": 0.19277458575006787,
+            "ft_cka_label": 0.20838401315836338,
+            "delta_cka_label": 0.015609427408295518,
+            "frozen_cka_subject": 0.20109168648631293,
+            "ft_cka_subject": 0.15426302905737693,
+            "delta_cka_subject": -0.046828657428935994
+          }
+        },
+        {
+          "fm": "cbramod",
+          "trace_anova": {
+            "frozen_label_pct": 5.488194096479214,
+            "ft_label_pct": 10.66050804153248,
+            "delta_label_pp": 5.172313945053267,
+            "frozen_subject_pct": 58.761268134059904,
+            "ft_subject_pct": 81.55557143940814,
+            "delta_subject_pp": 22.79430330534823,
+            "label_design": "between_subject"
+          },
+          "permanova": {
+            "frozen_label_pct": 9.3404323139645,
+            "ft_label_pct": 12.636390716519477,
+            "delta_label_pp": 3.295958402554977,
+            "frozen_subject_pct": 69.64501818449685,
+            "ft_subject_pct": 61.36470934116224,
+            "delta_subject_pp": -8.280308843334616,
+            "p_label_frozen": 0.004,
+            "p_label_ft": 0.001,
+            "design": "subject_trait"
+          },
+          "cka": {
+            "frozen_cka_label": 0.13507705530201097,
+            "ft_cka_label": 0.19371030999502847,
+            "delta_cka_label": 0.0586332546930175,
+            "frozen_cka_subject": 0.1841801074688441,
+            "ft_cka_subject": 0.18754895089722154,
+            "delta_cka_subject": 0.003368843428377427
+          }
+        },
+        {
+          "fm": "reve",
+          "trace_anova": {
+            "frozen_label_pct": 4.61844996372172,
+            "ft_label_pct": 5.195217589913365,
+            "delta_label_pp": 0.5767676261916446,
+            "frozen_subject_pct": 46.48894618364317,
+            "ft_subject_pct": 80.51366186018963,
+            "delta_subject_pp": 34.024715676546464,
+            "label_design": "between_subject"
+          },
+          "permanova": {
+            "frozen_label_pct": 8.200357576526226,
+            "ft_label_pct": 7.506854509739261,
+            "delta_label_pp": -0.6935030667869657,
+            "frozen_subject_pct": 53.876455456021986,
+            "ft_subject_pct": 72.94402507476636,
+            "delta_subject_pp": 19.067569618744372,
+            "p_label_frozen": 0.001,
+            "p_label_ft": 0.002,
+            "design": "subject_trait"
+          },
+          "cka": {
+            "frozen_cka_label": 0.14742377823579825,
+            "ft_cka_label": 0.12162495253207184,
+            "delta_cka_label": -0.025798825703726408,
+            "frozen_cka_subject": 0.18584355562878888,
+            "ft_cka_subject": 0.2370222398072,
+            "delta_cka_subject": 0.05117868417841112
+          }
+        }
+      ]
+    }
+  ]
+}

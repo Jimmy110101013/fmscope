@@ -1,0 +1,22 @@
+include README.md
+include LICENSE
+include CITATION.cff
+include CONTRIBUTING.md
+include CODE_OF_CONDUCT.md
+include CHANGELOG.md
+include pyproject.toml
+
+# Bundled paper-reproduction code + data (reproduction/ is excluded from the
+# installed wheel; this keeps the sdist a faithful, clone-style snapshot).
+recursive-include reproduction *.py *.ipynb *.json *.npz *.md
+
+# Documentation source (not built artifacts).
+recursive-include docs *.md
+
+# Exclude test/build leftovers from the wheel.
+prune .github
+prune .pytest_cache
+prune **/__pycache__
+prune **/.ipynb_checkpoints
+global-exclude *.pyc
+global-exclude *.pyo

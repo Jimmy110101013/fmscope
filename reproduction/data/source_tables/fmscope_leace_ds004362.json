@@ -1,0 +1,82 @@
+{
+  "cohort": "ds004362",
+  "dataset_name": "eegmmidb (EEG Motor Movement/Imagery, Schalk 2004)",
+  "contrast": "MI_vs_rest",
+  "contrast_detail": "motor imagery of fist (T1/T2) vs interleaved rest (T0), runs 4/8/12",
+  "note": "active-task generalization cohort, erasure diagnostic only; NOT part of the 2x2 panel; different consensus marker (sensorimotor ERD)",
+  "preprocess": "preprocess_v2_events (3 imagery runs concatenated -> ICA+ICLabel+autoreject+CAR, bandpass 0.5-45, notch 60); 4 s trial windows",
+  "window_sec": 4.0,
+  "caveats": [
+    "4 s trial windows here vs 5 s sliding windows on EEGMAT/ds004148 (intrinsic to the ~4 s motor-imagery trials); minor, recorded.",
+    "subj-BA chance floor 1/n_subj differs across cohorts; compare subj-BA/chance ratio, not raw subj-BA.",
+    "left-vs-right NOT computed (locked to MI-vs-rest); see PRIMARY_CONTRAST.",
+    "LaBraM pre-erasure label BA = 0.608 is the closest-to-gate of any erasure-helps replication recorded; its \u0394_erase \u00b16.7 pp SD (3 seeds) is correspondingly the widest. Effect clearly positive but the weakest of the 3.",
+    "REVE post-erasure label BA 0.994 approaches ceiling; cross-cohort \u0394_erase magnitude comparisons must account for this (do not read +26.7 pp here vs +13.9 pp on ds004148 as a clean effect-size difference).",
+    "REVE nonlinear residual (MLP-post) is dataset-dependent: 0.039 here vs 0.272 on ds004148. The d=512-vs-200 confound applies per-cohort, not as a fixed FM property."
+  ],
+  "label_seeds": [
+    42,
+    123,
+    2024
+  ],
+  "gate": 0.55,
+  "results": {
+    "labram/ds004362": {
+      "n_subj": 60,
+      "d": 200,
+      "rank_S": 59,
+      "cond_shrunk": 35033.076231900464,
+      "chance": 0.016666666666666666,
+      "degenerate": false,
+      "subj_ba_linear_pre": 0.9358480182671359,
+      "subj_ba_linear_post": 0.0,
+      "subj_ba_mlp_post": 0.0189853719265484,
+      "label_ba_raw": 0.6083333333333333,
+      "label_ba_raw_std": 0.029658550700086973,
+      "label_ba_erased": 0.7833333333333333,
+      "label_ba_erased_std": 0.037883838047182934,
+      "label_ba_delta": 0.17500000000000004,
+      "label_ba_delta_std": 0.06701298934341567,
+      "gate": 0.55,
+      "interpretable": true
+    },
+    "cbramod/ds004362": {
+      "n_subj": 60,
+      "d": 200,
+      "rank_S": 59,
+      "cond_shrunk": 32343.73141765303,
+      "chance": 0.016666666666666666,
+      "degenerate": false,
+      "subj_ba_linear_pre": 0.9179256057123704,
+      "subj_ba_linear_post": 0.0,
+      "subj_ba_mlp_post": 0.014513442984031219,
+      "label_ba_raw": 0.6222222222222222,
+      "label_ba_raw_std": 0.027498597046143467,
+      "label_ba_erased": 0.7055555555555556,
+      "label_ba_erased_std": 0.01571348402636772,
+      "label_ba_delta": 0.08333333333333337,
+      "label_ba_delta_std": 0.03788383804718289,
+      "gate": 0.55,
+      "interpretable": true
+    },
+    "reve/ds004362": {
+      "n_subj": 60,
+      "d": 512,
+      "rank_S": 59,
+      "cond_shrunk": 97858.3510916456,
+      "chance": 0.016666666666666666,
+      "degenerate": false,
+      "subj_ba_linear_pre": 0.9961104886399005,
+      "subj_ba_linear_post": 0.0,
+      "subj_ba_mlp_post": 0.03868885417414829,
+      "label_ba_raw": 0.7277777777777779,
+      "label_ba_raw_std": 0.010393492741038738,
+      "label_ba_erased": 0.9944444444444445,
+      "label_ba_erased_std": 0.007856742013183886,
+      "label_ba_delta": 0.26666666666666666,
+      "label_ba_delta_std": 0.006804138174397738,
+      "gate": 0.55,
+      "interpretable": true
+    }
+  }
+}

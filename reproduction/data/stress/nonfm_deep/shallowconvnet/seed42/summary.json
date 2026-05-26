@@ -1,0 +1,111 @@
+{
+  "subject_acc": 0.6429,
+  "subject_bal_acc": 0.5089,
+  "subject_f1": 0.6616,
+  "subject_kappa": 0.0157,
+  "n_samples": 70,
+  "per_subject": [
+    {
+      "patient_id": 1,
+      "n_samples": 5.0,
+      "n_correct": 0.0,
+      "acc": 0.0
+    },
+    {
+      "patient_id": 2,
+      "n_samples": 1.0,
+      "n_correct": 1.0,
+      "acc": 1.0
+    },
+    {
+      "patient_id": 3,
+      "n_samples": 6.0,
+      "n_correct": 3.0,
+      "acc": 0.5
+    },
+    {
+      "patient_id": 4,
+      "n_samples": 6.0,
+      "n_correct": 4.0,
+      "acc": 0.6667
+    },
+    {
+      "patient_id": 5,
+      "n_samples": 6.0,
+      "n_correct": 2.0,
+      "acc": 0.3333
+    },
+    {
+      "patient_id": 6,
+      "n_samples": 5.0,
+      "n_correct": 5.0,
+      "acc": 1.0
+    },
+    {
+      "patient_id": 7,
+      "n_samples": 5.0,
+      "n_correct": 5.0,
+      "acc": 1.0
+    },
+    {
+      "patient_id": 8,
+      "n_samples": 4.0,
+      "n_correct": 4.0,
+      "acc": 1.0
+    },
+    {
+      "patient_id": 9,
+      "n_samples": 2.0,
+      "n_correct": 0.0,
+      "acc": 0.0
+    },
+    {
+      "patient_id": 10,
+      "n_samples": 3.0,
+      "n_correct": 2.0,
+      "acc": 0.6667
+    },
+    {
+      "patient_id": 11,
+      "n_samples": 6.0,
+      "n_correct": 1.0,
+      "acc": 0.1667
+    },
+    {
+      "patient_id": 12,
+      "n_samples": 6.0,
+      "n_correct": 6.0,
+      "acc": 1.0
+    },
+    {
+      "patient_id": 13,
+      "n_samples": 5.0,
+      "n_correct": 5.0,
+      "acc": 1.0
+    },
+    {
+      "patient_id": 14,
+      "n_samples": 2.0,
+      "n_correct": 1.0,
+      "acc": 0.5
+    },
+    {
+      "patient_id": 16,
+      "n_samples": 1.0,
+      "n_correct": 1.0,
+      "acc": 1.0
+    },
+    {
+      "patient_id": 17,
+      "n_samples": 3.0,
+      "n_correct": 1.0,
+      "acc": 0.3333
+    },
+    {
+      "patient_id": 18,
+      "n_samples": 4.0,
+      "n_correct": 4.0,
+      "acc": 1.0
+    }
+  ]
+}

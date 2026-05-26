@@ -1,0 +1,32 @@
+{
+  "labram_stress": {
+    "ft_rsa_label_r": -0.0074,
+    "ft_rsa_subject_r": 0.3221,
+    "n_windows": 70
+  },
+  "labram_eegmat": {
+    "ft_rsa_label_r": 0.0357,
+    "ft_rsa_subject_r": 0.1634,
+    "n_windows": 72
+  },
+  "cbramod_stress": {
+    "ft_rsa_label_r": -0.0249,
+    "ft_rsa_subject_r": 0.331,
+    "n_windows": 70
+  },
+  "cbramod_eegmat": {
+    "ft_rsa_label_r": 0.0124,
+    "ft_rsa_subject_r": 0.1168,
+    "n_windows": 72
+  },
+  "reve_stress": {
+    "ft_rsa_label_r": -0.0077,
+    "ft_rsa_subject_r": 0.249,
+    "n_windows": 70
+  },
+  "reve_eegmat": {
+    "ft_rsa_label_r": 0.0143,
+    "ft_rsa_subject_r": 0.1524,
+    "n_windows": 72
+  }
+}

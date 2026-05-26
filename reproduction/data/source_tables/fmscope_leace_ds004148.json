@@ -1,0 +1,72 @@
+{
+  "cohort": "ds004148",
+  "session": "session1",
+  "contrast": "eyesclosed(0)-vs-mathematic(1)",
+  "note": "generalization cohort, erasure diagnostic only; NOT part of the 2x2 panel",
+  "preprocess": "preprocess_v2 (ICA+ICLabel+autoreject+CAR, bandpass 0.5-45, notch 50)",
+  "label_seeds": [
+    42,
+    123,
+    2024
+  ],
+  "gate": 0.55,
+  "results": {
+    "labram/ds004148": {
+      "n_subj": 60,
+      "d": 200,
+      "rank_S": 59,
+      "cond_shrunk": 74697.15201937537,
+      "chance": 0.016666666666666666,
+      "degenerate": false,
+      "subj_ba_linear_pre": 0.8743333333333334,
+      "subj_ba_linear_post": 0.0008333333333333335,
+      "subj_ba_mlp_post": 0.013833333333333333,
+      "label_ba_raw": 0.7333333333333334,
+      "label_ba_raw_std": 0.011785113019775856,
+      "label_ba_erased": 0.775,
+      "label_ba_erased_std": 0.006804138174397693,
+      "label_ba_delta": 0.041666666666666706,
+      "label_ba_delta_std": 0.018002057495577428,
+      "gate": 0.55,
+      "interpretable": true
+    },
+    "cbramod/ds004148": {
+      "n_subj": 60,
+      "d": 200,
+      "rank_S": 59,
+      "cond_shrunk": 20649.898245556305,
+      "chance": 0.016666666666666666,
+      "degenerate": false,
+      "subj_ba_linear_pre": 0.8009999999999999,
+      "subj_ba_linear_post": 0.0006666666666666668,
+      "subj_ba_mlp_post": 0.0115,
+      "label_ba_raw": 0.7805555555555556,
+      "label_ba_raw_std": 0.003928371006591969,
+      "label_ba_erased": 0.8250000000000001,
+      "label_ba_erased_std": 0.011785113019775802,
+      "label_ba_delta": 0.04444444444444436,
+      "label_ba_delta_std": 0.010393492741038728,
+      "gate": 0.55,
+      "interpretable": true
+    },
+    "reve/ds004148": {
+      "n_subj": 60,
+      "d": 512,
+      "rank_S": 59,
+      "cond_shrunk": 46244.19579384025,
+      "chance": 0.016666666666666666,
+      "degenerate": false,
+      "subj_ba_linear_pre": 0.9815000000000002,
+      "subj_ba_linear_post": 0.0006666666666666668,
+      "subj_ba_mlp_post": 0.27166666666666667,
+      "label_ba_raw": 0.6777777777777777,
+      "label_ba_raw_std": 0.003928371006591917,
+      "label_ba_erased": 0.8166666666666668,
+      "label_ba_erased_std": 0.018002057495577324,
+      "label_ba_delta": 0.13888888888888884,
+      "label_ba_delta_std": 0.01712337223046932,
+      "gate": 0.55,
+      "interpretable": true
+    }
+  }
+}

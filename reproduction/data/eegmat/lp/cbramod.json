@@ -1,0 +1,49 @@
+{
+  "provenance": {
+    "raw_dir": "results/studies/perwindow_lp_all/eegmat",
+    "snapshot_date": "2026-04-29",
+    "commit": "adda952d",
+    "script": "scripts/analysis/rebuild_final_snapshots.py",
+    "notes": "Per-window frozen LP, 8-seed sklearn LogReg + test-prob mean-pool."
+  },
+  "extractor": "cbramod",
+  "dataset": "eegmat",
+  "source_features": "results/features_cache/frozen_cbramod_eegmat_perwindow.npz",
+  "cv": "stratified-kfold",
+  "protocol": "Per-window LogisticRegression (liblinear, C=1.0, class_weight=balanced) on StandardScaler-normed per-window features after per-dim 1-99 percentile clip (train-fit). Recording-level CV = StratifiedGroupKFold(5) with groups=patient_id; window-level training within each fold; test-set window probs mean-pooled per recording; threshold 0.5; recording-level BA.",
+  "n_recordings": 72,
+  "n_subjects": 36,
+  "n_positive": 36,
+  "n_negative": 36,
+  "n_splits": 5,
+  "embed_dim": 200,
+  "total_windows": 1707,
+  "avg_windows_per_rec": 23.708333333333332,
+  "seeds": [
+    42,
+    123,
+    2024,
+    7,
+    0,
+    1,
+    99,
+    31337
+  ],
+  "per_seed_ba": {
+    "42": 0.6944444444444444,
+    "123": 0.6805555555555556,
+    "2024": 0.75,
+    "7": 0.6944444444444444,
+    "0": 0.6944444444444444,
+    "1": 0.7222222222222222,
+    "99": 0.6944444444444444,
+    "31337": 0.7222222222222222
+  },
+  "mean_8seed": 0.7065972222222222,
+  "std_8seed_ddof1": 0.02280667446939018,
+  "std_8seed_ddof0": 0.021333690499035603,
+  "mean_3seed_42_123_2024": 0.7083333333333334,
+  "std_3seed_42_123_2024_ddof1": 0.036746545987008196,
+  "min": 0.6805555555555556,
+  "max": 0.75
+}

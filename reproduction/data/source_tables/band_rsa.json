@@ -1,0 +1,286 @@
+{
+  "stress": {
+    "labram": {
+      "fm_rdm_shape": 70,
+      "delta": {
+        "rsa_r": 0.2386,
+        "rsa_p": 0.0
+      },
+      "theta": {
+        "rsa_r": 0.1875,
+        "rsa_p": 0.0
+      },
+      "alpha": {
+        "rsa_r": 0.2459,
+        "rsa_p": 0.0
+      },
+      "beta": {
+        "rsa_r": 0.3027,
+        "rsa_p": 0.0
+      },
+      "all_bands": {
+        "rsa_r": 0.5149,
+        "rsa_p": 0.0
+      }
+    },
+    "cbramod": {
+      "fm_rdm_shape": 70,
+      "delta": {
+        "rsa_r": 0.3736,
+        "rsa_p": 0.0
+      },
+      "theta": {
+        "rsa_r": 0.3114,
+        "rsa_p": 0.0
+      },
+      "alpha": {
+        "rsa_r": 0.339,
+        "rsa_p": 0.0
+      },
+      "beta": {
+        "rsa_r": 0.2841,
+        "rsa_p": 0.0
+      },
+      "all_bands": {
+        "rsa_r": 0.3878,
+        "rsa_p": 0.0
+      }
+    },
+    "reve": {
+      "fm_rdm_shape": 70,
+      "delta": {
+        "rsa_r": 0.3996,
+        "rsa_p": 0.0
+      },
+      "theta": {
+        "rsa_r": 0.3505,
+        "rsa_p": 0.0
+      },
+      "alpha": {
+        "rsa_r": 0.3779,
+        "rsa_p": 0.0
+      },
+      "beta": {
+        "rsa_r": 0.342,
+        "rsa_p": 0.0
+      },
+      "all_bands": {
+        "rsa_r": 0.3703,
+        "rsa_p": 0.0
+      }
+    }
+  },
+  "eegmat": {
+    "labram": {
+      "fm_rdm_shape": 72,
+      "delta": {
+        "rsa_r": 0.0265,
+        "rsa_p": 0.180156
+      },
+      "theta": {
+        "rsa_r": 0.1529,
+        "rsa_p": 0.0
+      },
+      "alpha": {
+        "rsa_r": 0.1822,
+        "rsa_p": 0.0
+      },
+      "beta": {
+        "rsa_r": 0.1181,
+        "rsa_p": 0.0
+      },
+      "all_bands": {
+        "rsa_r": 0.4996,
+        "rsa_p": 0.0
+      }
+    },
+    "cbramod": {
+      "fm_rdm_shape": 72,
+      "delta": {
+        "rsa_r": 0.0415,
+        "rsa_p": 0.036017
+      },
+      "theta": {
+        "rsa_r": 0.0838,
+        "rsa_p": 2.2e-05
+      },
+      "alpha": {
+        "rsa_r": 0.1304,
+        "rsa_p": 0.0
+      },
+      "beta": {
+        "rsa_r": 0.1668,
+        "rsa_p": 0.0
+      },
+      "all_bands": {
+        "rsa_r": 0.3249,
+        "rsa_p": 0.0
+      }
+    },
+    "reve": {
+      "fm_rdm_shape": 72,
+      "delta": {
+        "rsa_r": 0.0573,
+        "rsa_p": 0.003787
+      },
+      "theta": {
+        "rsa_r": 0.1601,
+        "rsa_p": 0.0
+      },
+      "alpha": {
+        "rsa_r": 0.2068,
+        "rsa_p": 0.0
+      },
+      "beta": {
+        "rsa_r": 0.2283,
+        "rsa_p": 0.0
+      },
+      "all_bands": {
+        "rsa_r": 0.323,
+        "rsa_p": 0.0
+      }
+    }
+  },
+  "adftd": {
+    "labram": {
+      "fm_rdm_shape": 65,
+      "delta": {
+        "rsa_r": 0.1435,
+        "rsa_p": 0.0
+      },
+      "theta": {
+        "rsa_r": 0.2204,
+        "rsa_p": 0.0
+      },
+      "alpha": {
+        "rsa_r": 0.1872,
+        "rsa_p": 0.0
+      },
+      "beta": {
+        "rsa_r": 0.2277,
+        "rsa_p": 0.0
+      },
+      "all_bands": {
+        "rsa_r": 0.5526,
+        "rsa_p": 0.0
+      }
+    },
+    "cbramod": {
+      "fm_rdm_shape": 65,
+      "delta": {
+        "rsa_r": 0.2083,
+        "rsa_p": 0.0
+      },
+      "theta": {
+        "rsa_r": 0.2233,
+        "rsa_p": 0.0
+      },
+      "alpha": {
+        "rsa_r": 0.2261,
+        "rsa_p": 0.0
+      },
+      "beta": {
+        "rsa_r": 0.227,
+        "rsa_p": 0.0
+      },
+      "all_bands": {
+        "rsa_r": 0.439,
+        "rsa_p": 0.0
+      }
+    },
+    "reve": {
+      "fm_rdm_shape": 65,
+      "delta": {
+        "rsa_r": 0.2602,
+        "rsa_p": 0.0
+      },
+      "theta": {
+        "rsa_r": 0.2889,
+        "rsa_p": 0.0
+      },
+      "alpha": {
+        "rsa_r": 0.3028,
+        "rsa_p": 0.0
+      },
+      "beta": {
+        "rsa_r": 0.3857,
+        "rsa_p": 0.0
+      },
+      "all_bands": {
+        "rsa_r": 0.4917,
+        "rsa_p": 0.0
+      }
+    }
+  },
+  "sleepdep": {
+    "labram": {
+      "fm_rdm_shape": 72,
+      "delta": {
+        "rsa_r": 0.3008,
+        "rsa_p": 0.0
+      },
+      "theta": {
+        "rsa_r": 0.3062,
+        "rsa_p": 0.0
+      },
+      "alpha": {
+        "rsa_r": 0.2785,
+        "rsa_p": 0.0
+      },
+      "beta": {
+        "rsa_r": 0.1896,
+        "rsa_p": 0.0
+      },
+      "all_bands": {
+        "rsa_r": 0.2822,
+        "rsa_p": 0.0
+      }
+    },
+    "cbramod": {
+      "fm_rdm_shape": 72,
+      "delta": {
+        "rsa_r": 0.1832,
+        "rsa_p": 0.0
+      },
+      "theta": {
+        "rsa_r": 0.198,
+        "rsa_p": 0.0
+      },
+      "alpha": {
+        "rsa_r": 0.113,
+        "rsa_p": 0.0
+      },
+      "beta": {
+        "rsa_r": 0.0744,
+        "rsa_p": 0.000168
+      },
+      "all_bands": {
+        "rsa_r": 0.4499,
+        "rsa_p": 0.0
+      }
+    },
+    "reve": {
+      "fm_rdm_shape": 72,
+      "delta": {
+        "rsa_r": 0.5029,
+        "rsa_p": 0.0
+      },
+      "theta": {
+        "rsa_r": 0.5152,
+        "rsa_p": 0.0
+      },
+      "alpha": {
+        "rsa_r": 0.3629,
+        "rsa_p": 0.0
+      },
+      "beta": {
+        "rsa_r": 0.3443,
+        "rsa_p": 0.0
+      },
+      "all_bands": {
+        "rsa_r": 0.4512,
+        "rsa_p": 0.0
+      }
+    }
+  }
+}

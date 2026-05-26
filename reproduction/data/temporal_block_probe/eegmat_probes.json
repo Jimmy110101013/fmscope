@@ -1,0 +1,147 @@
+{
+  "dataset": "eegmat",
+  "protocol": "temporal_block_5fold",
+  "seeds": [
+    42
+  ],
+  "results": {
+    "labram": {
+      "original": {
+        "subject_probe_mean": 0.752283950617284,
+        "subject_probe_std": 0.0,
+        "subject_probe_bas": [
+          0.752283950617284
+        ],
+        "n_subjects": 36,
+        "chance_rate": 0.027777777777777776,
+        "n_windows": 1707,
+        "feature_dim": 200
+      },
+      "aperiodic_removed": {
+        "subject_probe_mean": 0.5679012345679013,
+        "subject_probe_std": 0.0,
+        "subject_probe_bas": [
+          0.5679012345679013
+        ],
+        "n_subjects": 36,
+        "chance_rate": 0.027777777777777776,
+        "n_windows": 1707,
+        "feature_dim": 200
+      },
+      "periodic_removed": {
+        "subject_probe_mean": 0.7600617283950618,
+        "subject_probe_std": 0.0,
+        "subject_probe_bas": [
+          0.7600617283950618
+        ],
+        "n_subjects": 36,
+        "chance_rate": 0.027777777777777776,
+        "n_windows": 1707,
+        "feature_dim": 200
+      },
+      "both_removed": {
+        "subject_probe_mean": 0.5665432098765433,
+        "subject_probe_std": 0.0,
+        "subject_probe_bas": [
+          0.5665432098765433
+        ],
+        "n_subjects": 36,
+        "chance_rate": 0.027777777777777776,
+        "n_windows": 1707,
+        "feature_dim": 200
+      }
+    },
+    "cbramod": {
+      "original": {
+        "subject_probe_mean": 0.693395061728395,
+        "subject_probe_std": 0.0,
+        "subject_probe_bas": [
+          0.693395061728395
+        ],
+        "n_subjects": 36,
+        "chance_rate": 0.027777777777777776,
+        "n_windows": 1707,
+        "feature_dim": 200
+      },
+      "aperiodic_removed": {
+        "subject_probe_mean": 0.5039506172839505,
+        "subject_probe_std": 0.0,
+        "subject_probe_bas": [
+          0.5039506172839505
+        ],
+        "n_subjects": 36,
+        "chance_rate": 0.027777777777777776,
+        "n_windows": 1707,
+        "feature_dim": 200
+      },
+      "periodic_removed": {
+        "subject_probe_mean": 0.6910493827160493,
+        "subject_probe_std": 0.0,
+        "subject_probe_bas": [
+          0.6910493827160493
+        ],
+        "n_subjects": 36,
+        "chance_rate": 0.027777777777777776,
+        "n_windows": 1707,
+        "feature_dim": 200
+      },
+      "both_removed": {
+        "subject_probe_mean": 0.5035802469135803,
+        "subject_probe_std": 0.0,
+        "subject_probe_bas": [
+          0.5035802469135803
+        ],
+        "n_subjects": 36,
+        "chance_rate": 0.027777777777777776,
+        "n_windows": 1707,
+        "feature_dim": 200
+      }
+    },
+    "reve": {
+      "original": {
+        "subject_probe_mean": 0.9901234567901234,
+        "subject_probe_std": 0.0,
+        "subject_probe_bas": [
+          0.9901234567901234
+        ],
+        "n_subjects": 36,
+        "chance_rate": 0.027777777777777776,
+        "n_windows": 1707,
+        "feature_dim": 512
+      },
+      "aperiodic_removed": {
+        "subject_probe_mean": 0.9882716049382715,
+        "subject_probe_std": 0.0,
+        "subject_probe_bas": [
+          0.9882716049382715
+        ],
+        "n_subjects": 36,
+        "chance_rate": 0.027777777777777776,
+        "n_windows": 1707,
+        "feature_dim": 512
+      },
+      "periodic_removed": {
+        "subject_probe_mean": 0.9895061728395061,
+        "subject_probe_std": 0.0,
+        "subject_probe_bas": [
+          0.9895061728395061
+        ],
+        "n_subjects": 36,
+        "chance_rate": 0.027777777777777776,
+        "n_windows": 1707,
+        "feature_dim": 512
+      },
+      "both_removed": {
+        "subject_probe_mean": 0.9873456790123456,
+        "subject_probe_std": 0.0,
+        "subject_probe_bas": [
+          0.9873456790123456
+        ],
+        "n_subjects": 36,
+        "chance_rate": 0.027777777777777776,
+        "n_windows": 1707,
+        "feature_dim": 512
+      }
+    }
+  }
+}

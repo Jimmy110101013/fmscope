@@ -1,0 +1,109 @@
+{
+  "note": "MDE at \u03b1=0.05, n=30 seeds. p95_threshold = 95th percentile of empirical null per cell \u00d7 FM. MDE_pp_vs_null_mean = (p95 \u2212 null mean) \u00d7 100. Generated 2026-05-02.",
+  "cells": {
+    "eegmat": {
+      "labram": {
+        "null_mean": 0.48240666666666665,
+        "null_sd": 0.05673566617298112,
+        "p95_threshold": 0.5798699999999998,
+        "mde_pp_above_null_mean": 9.746333333333313,
+        "mde_pp_above_chance_0.5": 7.986999999999977
+      },
+      "cbramod": {
+        "null_mean": 0.47731,
+        "null_sd": 0.05784497325640736,
+        "p95_threshold": 0.56319,
+        "mde_pp_above_null_mean": 8.587999999999996,
+        "mde_pp_above_chance_0.5": 6.318999999999997
+      },
+      "reve": {
+        "null_mean": 0.4949166666666667,
+        "null_sd": 0.054897868078279954,
+        "p95_threshold": 0.5556,
+        "mde_pp_above_null_mean": 6.068333333333325,
+        "mde_pp_above_chance_0.5": 5.559999999999999
+      }
+    },
+    "adftd": {
+      "labram": {
+        "null_mean": 0.4919666666666667,
+        "null_sd": 0.056506028566585854,
+        "p95_threshold": 0.563975,
+        "mde_pp_above_null_mean": 7.200833333333328,
+        "mde_pp_above_chance_0.5": 6.397500000000001
+      },
+      "cbramod": {
+        "null_mean": 0.49854666666666664,
+        "null_sd": 0.07125203800271422,
+        "p95_threshold": 0.620305,
+        "mde_pp_above_null_mean": 12.175833333333335,
+        "mde_pp_above_chance_0.5": 12.0305
+      },
+      "reve": {
+        "null_mean": 0.48693333333333333,
+        "null_sd": 0.06511567602634419,
+        "p95_threshold": 0.5895099999999999,
+        "mde_pp_above_null_mean": 10.257666666666655,
+        "mde_pp_above_chance_0.5": 8.950999999999986
+      }
+    },
+    "sleepdep": {
+      "labram": {
+        "null_mean": 0.48658,
+        "null_sd": 0.06129306874241221,
+        "p95_threshold": 0.5846899999999999,
+        "mde_pp_above_null_mean": 9.810999999999993,
+        "mde_pp_above_chance_0.5": 8.468999999999994
+      },
+      "cbramod": {
+        "null_mean": 0.49258333333333326,
+        "null_sd": 0.059791517581615564,
+        "p95_threshold": 0.604845,
+        "mde_pp_above_null_mean": 11.226166666666671,
+        "mde_pp_above_chance_0.5": 10.484499999999997
+      },
+      "reve": {
+        "null_mean": 0.5013766666666667,
+        "null_sd": 0.07670551696803388,
+        "p95_threshold": 0.6124899999999999,
+        "mde_pp_above_null_mean": 11.111333333333317,
+        "mde_pp_above_chance_0.5": 11.248999999999986
+      }
+    },
+    "stress": {
+      "labram": {
+        "null_mean": 0.5068433333333334,
+        "null_sd": 0.05103539463692943,
+        "p95_threshold": 0.595085,
+        "mde_pp_above_null_mean": 8.824166666666656,
+        "mde_pp_above_chance_0.5": 9.508499999999998
+      },
+      "cbramod": {
+        "null_mean": 0.4955300000000001,
+        "null_sd": 0.06488288733530219,
+        "p95_threshold": 0.585295,
+        "mde_pp_above_null_mean": 8.976499999999993,
+        "mde_pp_above_chance_0.5": 8.5295
+      },
+      "reve": {
+        "null_mean": 0.5184599999999999,
+        "null_sd": 0.05917992786468201,
+        "p95_threshold": 0.63084,
+        "mde_pp_above_null_mean": 11.238000000000003,
+        "mde_pp_above_chance_0.5": 13.083999999999996
+      }
+    }
+  },
+  "aggregate_pp": {
+    "median_mde_vs_null": 9.778666666666652,
+    "range_mde_vs_null": [
+      6.068333333333325,
+      12.175833333333335
+    ],
+    "median_mde_vs_chance": 8.740249999999993,
+    "range_mde_vs_chance": [
+      5.559999999999999,
+      13.083999999999996
+    ]
+  }
+}

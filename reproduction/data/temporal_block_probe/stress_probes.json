@@ -1,0 +1,147 @@
+{
+  "dataset": "stress",
+  "protocol": "temporal_block_5fold",
+  "seeds": [
+    42
+  ],
+  "results": {
+    "labram": {
+      "original": {
+        "subject_probe_mean": 0.6135335430777471,
+        "subject_probe_std": 0.0,
+        "subject_probe_bas": [
+          0.6135335430777471
+        ],
+        "n_subjects": 14,
+        "chance_rate": 0.07142857142857142,
+        "n_windows": 4421,
+        "feature_dim": 200
+      },
+      "aperiodic_removed": {
+        "subject_probe_mean": 0.5229511601846644,
+        "subject_probe_std": 0.0,
+        "subject_probe_bas": [
+          0.5229511601846644
+        ],
+        "n_subjects": 14,
+        "chance_rate": 0.07142857142857142,
+        "n_windows": 4421,
+        "feature_dim": 200
+      },
+      "periodic_removed": {
+        "subject_probe_mean": 0.6096362940896825,
+        "subject_probe_std": 0.0,
+        "subject_probe_bas": [
+          0.6096362940896825
+        ],
+        "n_subjects": 14,
+        "chance_rate": 0.07142857142857142,
+        "n_windows": 4421,
+        "feature_dim": 200
+      },
+      "both_removed": {
+        "subject_probe_mean": 0.5197976303664928,
+        "subject_probe_std": 0.0,
+        "subject_probe_bas": [
+          0.5197976303664928
+        ],
+        "n_subjects": 14,
+        "chance_rate": 0.07142857142857142,
+        "n_windows": 4421,
+        "feature_dim": 200
+      }
+    },
+    "cbramod": {
+      "original": {
+        "subject_probe_mean": 0.5756644194681024,
+        "subject_probe_std": 0.0,
+        "subject_probe_bas": [
+          0.5756644194681024
+        ],
+        "n_subjects": 14,
+        "chance_rate": 0.07142857142857142,
+        "n_windows": 4421,
+        "feature_dim": 200
+      },
+      "aperiodic_removed": {
+        "subject_probe_mean": 0.4826941218086308,
+        "subject_probe_std": 0.0,
+        "subject_probe_bas": [
+          0.4826941218086308
+        ],
+        "n_subjects": 14,
+        "chance_rate": 0.07142857142857142,
+        "n_windows": 4421,
+        "feature_dim": 200
+      },
+      "periodic_removed": {
+        "subject_probe_mean": 0.5725859782153122,
+        "subject_probe_std": 0.0,
+        "subject_probe_bas": [
+          0.5725859782153122
+        ],
+        "n_subjects": 14,
+        "chance_rate": 0.07142857142857142,
+        "n_windows": 4421,
+        "feature_dim": 200
+      },
+      "both_removed": {
+        "subject_probe_mean": 0.48334413417361616,
+        "subject_probe_std": 0.0,
+        "subject_probe_bas": [
+          0.48334413417361616
+        ],
+        "n_subjects": 14,
+        "chance_rate": 0.07142857142857142,
+        "n_windows": 4421,
+        "feature_dim": 200
+      }
+    },
+    "reve": {
+      "original": {
+        "subject_probe_mean": 0.9264767717771549,
+        "subject_probe_std": 0.0,
+        "subject_probe_bas": [
+          0.9264767717771549
+        ],
+        "n_subjects": 14,
+        "chance_rate": 0.07142857142857142,
+        "n_windows": 4421,
+        "feature_dim": 512
+      },
+      "aperiodic_removed": {
+        "subject_probe_mean": 0.9264446766288292,
+        "subject_probe_std": 0.0,
+        "subject_probe_bas": [
+          0.9264446766288292
+        ],
+        "n_subjects": 14,
+        "chance_rate": 0.07142857142857142,
+        "n_windows": 4421,
+        "feature_dim": 512
+      },
+      "periodic_removed": {
+        "subject_probe_mean": 0.9263172729493754,
+        "subject_probe_std": 0.0,
+        "subject_probe_bas": [
+          0.9263172729493754
+        ],
+        "n_subjects": 14,
+        "chance_rate": 0.07142857142857142,
+        "n_windows": 4421,
+        "feature_dim": 512
+      },
+      "both_removed": {
+        "subject_probe_mean": 0.9263771574444053,
+        "subject_probe_std": 0.0,
+        "subject_probe_bas": [
+          0.9263771574444053
+        ],
+        "n_subjects": 14,
+        "chance_rate": 0.07142857142857142,
+        "n_windows": 4421,
+        "feature_dim": 512
+      }
+    }
+  }
+}

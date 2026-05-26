@@ -1,0 +1,119 @@
+{
+  "within_subject_spearman_order_vs_dass": {
+    "mean_rho": 0.0059935401051152675,
+    "mean_abs_rho": 0.530270196158621,
+    "n_subjects_above_half": 6,
+    "n_subjects": 13,
+    "per_subject": [
+      {
+        "pid": 1,
+        "n": 5,
+        "rho": -0.3,
+        "p": 0.623837664781073,
+        "min_score": 72.0,
+        "max_score": 86.0
+      },
+      {
+        "pid": 3,
+        "n": 6,
+        "rho": 0.8857142857142858,
+        "p": 0.01884548104956266,
+        "min_score": 39.0,
+        "max_score": 64.0
+      },
+      {
+        "pid": 4,
+        "n": 6,
+        "rho": -0.3142857142857143,
+        "p": 0.5440932944606415,
+        "min_score": 33.0,
+        "max_score": 61.0
+      },
+      {
+        "pid": 5,
+        "n": 6,
+        "rho": 0.6,
+        "p": 0.208,
+        "min_score": 63.0,
+        "max_score": 74.0
+      },
+      {
+        "pid": 6,
+        "n": 5,
+        "rho": -0.8207826816681233,
+        "p": 0.08858700531354384,
+        "min_score": 38.0,
+        "max_score": 61.0
+      },
+      {
+        "pid": 7,
+        "n": 5,
+        "rho": -0.6155870112510925,
+        "p": 0.2689977701158222,
+        "min_score": 30.0,
+        "max_score": 58.0
+      },
+      {
+        "pid": 8,
+        "n": 4,
+        "rho": 0.39999999999999997,
+        "p": 0.6,
+        "min_score": 16.0,
+        "max_score": 30.0
+      },
+      {
+        "pid": 10,
+        "n": 3,
+        "rho": -0.5,
+        "p": 0.6666666666666666,
+        "min_score": 71.0,
+        "max_score": 86.0
+      },
+      {
+        "pid": 11,
+        "n": 6,
+        "rho": -0.7714285714285715,
+        "p": 0.07239650145772594,
+        "min_score": 43.0,
+        "max_score": 77.0
+      },
+      {
+        "pid": 12,
+        "n": 6,
+        "rho": -0.08571428571428573,
+        "p": 0.8717434402332361,
+        "min_score": 13.0,
+        "max_score": 74.0
+      },
+      {
+        "pid": 13,
+        "n": 5,
+        "rho": 0.39999999999999997,
+        "p": 0.5046315754686912,
+        "min_score": 60.0,
+        "max_score": 67.0
+      },
+      {
+        "pid": 17,
+        "n": 3,
+        "rho": 1.0,
+        "p": 0.0,
+        "min_score": 29.0,
+        "max_score": 84.0
+      },
+      {
+        "pid": 18,
+        "n": 4,
+        "rho": 0.19999999999999998,
+        "p": 0.8,
+        "min_score": 7.0,
+        "max_score": 78.0
+      }
+    ]
+  },
+  "pooled_spearman": {
+    "rho": -0.12177924352074727,
+    "p": 0.3152453319906789
+  },
+  "note": "Recording-order (within-subject) vs DASS-21 Stress_Score on the 70-recording / 17-subject Stress dataset. Subjects with <3 recordings excluded from per-subject correlations."
+}

@@ -1,0 +1,49 @@
+{
+  "provenance": {
+    "raw_dir": "results/studies/perwindow_lp_all/stress",
+    "snapshot_date": "2026-04-29",
+    "commit": "adda952d",
+    "script": "scripts/analysis/rebuild_final_snapshots.py",
+    "notes": "Per-window frozen LP, 8-seed sklearn LogReg + test-prob mean-pool."
+  },
+  "extractor": "reve",
+  "dataset": "stress",
+  "source_features": "results/features_cache/frozen_reve_stress_perwindow.npz",
+  "cv": "stratified-kfold",
+  "protocol": "Per-window LogisticRegression (liblinear, C=1.0, class_weight=balanced) on StandardScaler-normed per-window features after per-dim 1-99 percentile clip (train-fit). Recording-level CV = StratifiedGroupKFold(5) with groups=patient_id; window-level training within each fold; test-set window probs mean-pooled per recording; threshold 0.5; recording-level BA.",
+  "n_recordings": 70,
+  "n_subjects": 17,
+  "n_positive": 14,
+  "n_negative": 56,
+  "n_splits": 5,
+  "embed_dim": 512,
+  "total_windows": 5558,
+  "avg_windows_per_rec": 79.4,
+  "seeds": [
+    42,
+    123,
+    2024,
+    7,
+    0,
+    1,
+    99,
+    31337
+  ],
+  "per_seed_ba": {
+    "42": 0.49107142857142855,
+    "123": 0.5178571428571429,
+    "2024": 0.48214285714285715,
+    "7": 0.4821428571428571,
+    "0": 0.5178571428571429,
+    "1": 0.5,
+    "99": 0.4910714285714286,
+    "31337": 0.48214285714285715
+  },
+  "mean_8seed": 0.4955357142857143,
+  "std_8seed_ddof1": 0.015092040263009247,
+  "std_8seed_ddof0": 0.014117310982894572,
+  "mean_3seed_42_123_2024": 0.49702380952380953,
+  "std_3seed_42_123_2024_ddof1": 0.018586303566661928,
+  "min": 0.4821428571428571,
+  "max": 0.5178571428571429
+}

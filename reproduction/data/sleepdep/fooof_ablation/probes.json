@@ -1,0 +1,217 @@
+{
+  "dataset": "sleepdep",
+  "subject_probe_protocol": "temporal_block_5fold_LDA",
+  "state_probe_protocol": "session_level_subject_CV_5fold_LogReg",
+  "results": {
+    "labram": {
+      "original": {
+        "subject_probe_mean": 0.6164653784219002,
+        "subject_probe_n_subjects": 36,
+        "subject_probe_chance_rate": 0.027777777777777776,
+        "state_probe_mean": 0.5555555555555556,
+        "state_probe_std": 0.03320079470373317,
+        "state_probe_bas": [
+          0.5,
+          0.5555555555555556,
+          0.5694444444444444,
+          0.5694444444444444,
+          0.5972222222222222,
+          0.5138888888888888,
+          0.5555555555555556,
+          0.5833333333333334
+        ]
+      },
+      "aperiodic_removed": {
+        "subject_probe_mean": 0.4373495635223324,
+        "subject_probe_n_subjects": 36,
+        "subject_probe_chance_rate": 0.027777777777777776,
+        "state_probe_mean": 0.5833333333333333,
+        "state_probe_std": 0.027777777777777776,
+        "state_probe_bas": [
+          0.5555555555555556,
+          0.5555555555555556,
+          0.5972222222222222,
+          0.5555555555555556,
+          0.5694444444444444,
+          0.6111111111111112,
+          0.625,
+          0.5972222222222222
+        ]
+      },
+      "periodic_removed": {
+        "subject_probe_mean": 0.6145573488508271,
+        "subject_probe_n_subjects": 36,
+        "subject_probe_chance_rate": 0.027777777777777776,
+        "state_probe_mean": 0.5520833333333333,
+        "state_probe_std": 0.03127754517943343,
+        "state_probe_bas": [
+          0.5,
+          0.5416666666666666,
+          0.5694444444444444,
+          0.5694444444444444,
+          0.5833333333333333,
+          0.5138888888888888,
+          0.5555555555555556,
+          0.5833333333333334
+        ]
+      },
+      "both_removed": {
+        "subject_probe_mean": 0.4341714051267826,
+        "subject_probe_n_subjects": 36,
+        "subject_probe_chance_rate": 0.027777777777777776,
+        "state_probe_mean": 0.5815972222222222,
+        "state_probe_std": 0.02156454872944857,
+        "state_probe_bas": [
+          0.5555555555555556,
+          0.5694444444444444,
+          0.5972222222222222,
+          0.5555555555555556,
+          0.5694444444444444,
+          0.5972222222222222,
+          0.6111111111111112,
+          0.5972222222222222
+        ]
+      }
+    },
+    "cbramod": {
+      "original": {
+        "subject_probe_mean": 0.6216698930571928,
+        "subject_probe_n_subjects": 36,
+        "subject_probe_chance_rate": 0.027777777777777776,
+        "state_probe_mean": 0.5486111111111112,
+        "state_probe_std": 0.0363696483726654,
+        "state_probe_bas": [
+          0.4861111111111111,
+          0.5833333333333334,
+          0.5555555555555556,
+          0.5694444444444444,
+          0.5972222222222222,
+          0.5416666666666667,
+          0.5416666666666667,
+          0.5138888888888888
+        ]
+      },
+      "aperiodic_removed": {
+        "subject_probe_mean": 0.45052743298738723,
+        "subject_probe_n_subjects": 36,
+        "subject_probe_chance_rate": 0.027777777777777776,
+        "state_probe_mean": 0.6180555555555556,
+        "state_probe_std": 0.054554472558998104,
+        "state_probe_bas": [
+          0.5,
+          0.5972222222222222,
+          0.6527777777777778,
+          0.6111111111111112,
+          0.625,
+          0.6527777777777778,
+          0.6805555555555556,
+          0.625
+        ]
+      },
+      "periodic_removed": {
+        "subject_probe_mean": 0.6167685242971285,
+        "subject_probe_n_subjects": 36,
+        "subject_probe_chance_rate": 0.027777777777777776,
+        "state_probe_mean": 0.5572916666666667,
+        "state_probe_std": 0.0343732463076794,
+        "state_probe_bas": [
+          0.5,
+          0.5833333333333334,
+          0.5694444444444444,
+          0.5694444444444444,
+          0.6111111111111112,
+          0.5555555555555556,
+          0.5416666666666667,
+          0.5277777777777778
+        ]
+      },
+      "both_removed": {
+        "subject_probe_mean": 0.4474105760118346,
+        "subject_probe_n_subjects": 36,
+        "subject_probe_chance_rate": 0.027777777777777776,
+        "state_probe_mean": 0.6128472222222222,
+        "state_probe_std": 0.05723527166661587,
+        "state_probe_bas": [
+          0.48611111111111116,
+          0.5972222222222222,
+          0.6527777777777778,
+          0.6111111111111112,
+          0.625,
+          0.625,
+          0.6805555555555556,
+          0.625
+        ]
+      }
+    },
+    "reve": {
+      "original": {
+        "subject_probe_mean": 0.9564580973734291,
+        "subject_probe_n_subjects": 36,
+        "subject_probe_chance_rate": 0.027777777777777776,
+        "state_probe_mean": 0.5572916666666667,
+        "state_probe_std": 0.027214021278462702,
+        "state_probe_bas": [
+          0.5277777777777778,
+          0.5694444444444444,
+          0.5694444444444444,
+          0.5972222222222222,
+          0.5694444444444444,
+          0.5694444444444444,
+          0.5138888888888888,
+          0.5416666666666667
+        ]
+      },
+      "aperiodic_removed": {
+        "subject_probe_mean": 0.9440068110548661,
+        "subject_probe_n_subjects": 36,
+        "subject_probe_chance_rate": 0.027777777777777776,
+        "state_probe_mean": 0.578125,
+        "state_probe_std": 0.031442309507421606,
+        "state_probe_bas": [
+          0.5416666666666666,
+          0.5972222222222222,
+          0.5972222222222223,
+          0.5555555555555556,
+          0.5972222222222222,
+          0.6111111111111112,
+          0.5972222222222223,
+          0.5277777777777778
+        ]
+      },
+      "periodic_removed": {
+        "subject_probe_mean": 0.9552274942406521,
+        "subject_probe_n_subjects": 36,
+        "subject_probe_chance_rate": 0.027777777777777776,
+        "state_probe_mean": 0.5625,
+        "state_probe_std": 0.022271770159368685,
+        "state_probe_bas": [
+          0.5416666666666667,
+          0.5555555555555556,
+          0.5694444444444444,
+          0.5833333333333334,
+          0.5694444444444444,
+          0.5972222222222222,
+          0.5277777777777778,
+          0.5555555555555556
+        ]
+      },
+      "both_removed": {
+        "subject_probe_mean": 0.9430918644877456,
+        "subject_probe_n_subjects": 36,
+        "subject_probe_chance_rate": 0.027777777777777776,
+        "state_probe_mean": 0.578125,
+        "state_probe_std": 0.02771570445376787,
+        "state_probe_bas": [
+          0.5416666666666666,
+          0.5972222222222222,
+          0.5972222222222223,
+          0.5555555555555556,
+          0.5972222222222222,
+          0.6111111111111112,
+          0.5833333333333334,
+          0.5416666666666666
+        ]
+      }
+    }
+  }
+}

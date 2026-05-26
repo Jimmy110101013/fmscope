@@ -1,0 +1,83 @@
+{
+  "cohort": "ds002893",
+  "dataset_name": "Auditory-Visual attention-shift oddball (OpenNeuro ds002893)",
+  "contrast": "target_vs_standard",
+  "contrast_detail": "attended-auditory tones: infrequent (target) vs frequent (standard); frequent subsampled to target count per subject",
+  "note": "active-task generalization cohort, erasure diagnostic only; NOT part of the 2x2 panel; 3rd consensus-marker family (auditory P300)",
+  "preprocess": "preprocess_v2_events (~58 min run -> ICA+ICLabel+autoreject+CAR, bandpass 0.5-45, notch 60); 1 s post-stimulus trial windows",
+  "window_sec": 1.0,
+  "caveats": [
+    "1 s post-stimulus window = 200 samples = 1 patch, the shortest/minimal-context window of any cohort (auditory ERP is intrinsically brief). SOA median ~0.73 s so windows may overlap a following stimulus; the locked P300 still dominates.",
+    "frequent (standard) class subsampled to the target count per subject (oddball is ~20% of tones); without balancing the 1:4 skew + 0.5 threshold collapses BA.",
+    "P300 decoding from frozen FM features is unproven; a sub-gate (n.i.) result is an honest boundary finding, not a failure.",
+    "subj-BA chance floor 1/n_subj differs across cohorts; use subj-BA/chance ratio.",
+    "post-erasure label BA reaches 0.98-1.00 (ceiling) for all 3 FMs; Delta_erase magnitude is NOT a clean cross-cohort effect size here (erased side saturated).",
+    "raw (pre-erasure) label BA is already high (0.74-0.86): the P300 is strongly decodable even with subject variance present, so subject-identity 'masking' is milder than in the arithmetic/motor cohorts; erasure pushes an already-decodable signal to ceiling rather than rescuing a masked one.",
+    "subject BA pre (0.66-0.77) is lower than the 4-5 s cohorts (0.87-0.99): a 1 s window carries less subject identity, as expected."
+  ],
+  "label_seeds": [
+    42,
+    123,
+    2024
+  ],
+  "gate": 0.55,
+  "results": {
+    "labram/ds002893": {
+      "n_subj": 44,
+      "d": 200,
+      "rank_S": 43,
+      "cond_shrunk": 51045.378422858055,
+      "chance": 0.022727272727272728,
+      "degenerate": false,
+      "subj_ba_linear_pre": 0.6562626262626262,
+      "subj_ba_linear_post": 0.02704545454545455,
+      "subj_ba_mlp_post": 0.03659090909090909,
+      "label_ba_raw": 0.7424242424242423,
+      "label_ba_raw_std": 0.005356869554443563,
+      "label_ba_erased": 0.9848484848484849,
+      "label_ba_erased_std": 0.005356869554443537,
+      "label_ba_delta": 0.24242424242424246,
+      "label_ba_delta_std": 0.00535686955444351,
+      "gate": 0.55,
+      "interpretable": true
+    },
+    "cbramod/ds002893": {
+      "n_subj": 44,
+      "d": 200,
+      "rank_S": 43,
+      "cond_shrunk": 11698.820679170003,
+      "chance": 0.022727272727272728,
+      "degenerate": false,
+      "subj_ba_linear_pre": 0.6646969696969697,
+      "subj_ba_linear_post": 0.020909090909090912,
+      "subj_ba_mlp_post": 0.024772727272727273,
+      "label_ba_raw": 0.7840909090909092,
+      "label_ba_raw_std": 0.00927837023781506,
+      "label_ba_erased": 1.0,
+      "label_ba_erased_std": 0.0,
+      "label_ba_delta": 0.2159090909090909,
+      "label_ba_delta_std": 0.00927837023781506,
+      "gate": 0.55,
+      "interpretable": true
+    },
+    "reve/ds002893": {
+      "n_subj": 44,
+      "d": 512,
+      "rank_S": 43,
+      "cond_shrunk": 7405.2366710081305,
+      "chance": 0.022727272727272728,
+      "degenerate": false,
+      "subj_ba_linear_pre": 0.7649494949494949,
+      "subj_ba_linear_post": 0.023409090909090914,
+      "subj_ba_mlp_post": 0.04227272727272728,
+      "label_ba_raw": 0.8560606060606061,
+      "label_ba_raw_std": 0.005356869554443485,
+      "label_ba_erased": 1.0,
+      "label_ba_erased_std": 0.0,
+      "label_ba_delta": 0.14393939393939395,
+      "label_ba_delta_std": 0.005356869554443484,
+      "gate": 0.55,
+      "interpretable": true
+    }
+  }
+}

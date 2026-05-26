@@ -1,0 +1,23 @@
+{
+  "provenance": {
+    "raw_dir": "results/final/adftd/ft/cbramod/seed2024",
+    "snapshot_date": "2026-04-29",
+    "commit": "adda952d",
+    "script": "scripts/analysis/rebuild_final_snapshots.py",
+    "notes": "FT run for adftd \u00d7 cbramod. Per-FM canonical HP (see docs/methodology_notes.md G-F09)."
+  },
+  "hp": {
+    "lr": 0.0005,
+    "batch_size": 64,
+    "window_sec": null,
+    "norm": "none",
+    "label": "dass",
+    "n_splits": 1,
+    "encoder_lr_scale": 0.2,
+    "loss": "ce",
+    "dataset": "adftd"
+  },
+  "model": "cbramod",
+  "cell": "adftd",
+  "seed": "seed2024"
+}

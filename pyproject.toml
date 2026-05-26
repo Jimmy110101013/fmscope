@@ -1,0 +1,71 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fmscope"
+version = "0.1.0"
+description = "Diagnostic toolkit for auditing EEG foundation models — identifies subject-identity confounds via variance decomposition, null calibration, and ablation probes."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Anonymous" }]
+requires-python = ">=3.10"
+keywords = ["eeg", "foundation-model", "audit", "diagnostic", "neuroimaging"]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Operating System :: OS Independent",
+  "Topic :: Scientific/Engineering",
+]
+dependencies = [
+  "numpy>=1.26,<2.0",
+  "scipy>=1.14,<1.16",
+  "pandas>=2.2",
+  "scikit-learn>=1.5",
+  "torch>=2.5",
+  "mne>=1.8",
+  "statsmodels>=0.14",
+  "h5py>=3.12",
+  "matplotlib>=3.9",
+  "tqdm>=4.66",
+  "fooof>=1.1",
+  "autoreject>=0.4",
+  "tabulate>=0.9",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8",
+  "ruff>=0.6",
+  "mypy>=1.10",
+  "papermill>=2.5",
+  "nbformat>=5.10",
+  "jupyter>=1.0",
+]
+
+[project.urls]
+Documentation = "https://github.com/Jimmy110101013/fmscope/tree/main/docs"
+Source = "https://github.com/Jimmy110101013/fmscope"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["fmscope*"]
+exclude = ["reproduction*", "tests*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W", "UP", "B"]
+ignore = ["E501", "B008"]
+
+[tool.mypy]
+python_version = "3.10"
+ignore_missing_imports = true
+follow_imports = "silent"
+disallow_untyped_defs = false
+warn_return_any = false

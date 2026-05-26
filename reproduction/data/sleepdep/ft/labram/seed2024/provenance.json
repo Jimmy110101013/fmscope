@@ -1,0 +1,23 @@
+{
+  "provenance": {
+    "raw_dir": "results/final/sleepdep/ft/labram/seed2024",
+    "snapshot_date": "2026-04-29",
+    "commit": "adda952d",
+    "script": "scripts/analysis/rebuild_final_snapshots.py",
+    "notes": "FT run for sleepdep \u00d7 labram. Per-FM canonical HP (see docs/methodology_notes.md G-F09)."
+  },
+  "hp": {
+    "lr": 0.0005,
+    "batch_size": 64,
+    "window_sec": null,
+    "norm": "none",
+    "label": "dass",
+    "n_splits": 1,
+    "encoder_lr_scale": 1.0,
+    "loss": "ce",
+    "dataset": "sleepdep"
+  },
+  "model": "labram",
+  "cell": "sleepdep",
+  "seed": "seed2024"
+}

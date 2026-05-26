@@ -1,0 +1,49 @@
+{
+  "provenance": {
+    "raw_dir": "results/studies/perwindow_lp_all/sleepdep",
+    "snapshot_date": "2026-04-29",
+    "commit": "adda952d",
+    "script": "scripts/analysis/rebuild_final_snapshots.py",
+    "notes": "Per-window frozen LP, 8-seed sklearn LogReg + test-prob mean-pool."
+  },
+  "extractor": "labram",
+  "dataset": "sleepdep",
+  "source_features": "results/features_cache/frozen_labram_sleepdep_perwindow.npz",
+  "cv": "stratified-kfold",
+  "protocol": "Per-window LogisticRegression (liblinear, C=1.0, class_weight=balanced) on StandardScaler-normed per-window features after per-dim 1-99 percentile clip (train-fit). Recording-level CV = StratifiedGroupKFold(5) with groups=patient_id; window-level training within each fold; test-set window probs mean-pooled per recording; threshold 0.5; recording-level BA.",
+  "n_recordings": 72,
+  "n_subjects": 36,
+  "n_positive": 36,
+  "n_negative": 36,
+  "n_splits": 5,
+  "embed_dim": 200,
+  "total_windows": 4207,
+  "avg_windows_per_rec": 58.43055555555556,
+  "seeds": [
+    42,
+    123,
+    2024,
+    7,
+    0,
+    1,
+    99,
+    31337
+  ],
+  "per_seed_ba": {
+    "42": 0.5,
+    "123": 0.5555555555555556,
+    "2024": 0.5694444444444444,
+    "7": 0.5694444444444444,
+    "0": 0.5972222222222222,
+    "1": 0.5138888888888888,
+    "99": 0.5555555555555556,
+    "31337": 0.5833333333333334
+  },
+  "mean_8seed": 0.5555555555555556,
+  "std_8seed_ddof1": 0.03320079470373317,
+  "std_8seed_ddof0": 0.03105649968749709,
+  "mean_3seed_42_123_2024": 0.5416666666666666,
+  "std_3seed_42_123_2024_ddof1": 0.036746545987008196,
+  "min": 0.5,
+  "max": 0.5972222222222222
+}

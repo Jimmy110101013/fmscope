@@ -1,0 +1,323 @@
+{
+  "dataset": "adftd",
+  "results": {
+    "labram": {
+      "original": {
+        "subject_probe_mean": NaN,
+        "subject_probe_std": NaN,
+        "subject_probe_bas": [
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN
+        ],
+        "state_probe_mean": 0.6333812260536398,
+        "state_probe_std": 0.03273264349304338,
+        "state_probe_bas": [
+          0.7025862068965517,
+          0.5986590038314177,
+          0.6264367816091954,
+          0.6230842911877394,
+          0.6369731800766283,
+          0.6508620689655172,
+          0.6264367816091954,
+          0.6020114942528736
+        ]
+      },
+      "aperiodic_removed": {
+        "subject_probe_mean": NaN,
+        "subject_probe_std": NaN,
+        "subject_probe_bas": [
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN
+        ],
+        "state_probe_mean": 0.5778855363984674,
+        "state_probe_std": 0.06039527169158249,
+        "state_probe_bas": [
+          0.6470306513409961,
+          0.5363984674329503,
+          0.5886015325670498,
+          0.6297892720306513,
+          0.5708812260536398,
+          0.6436781609195402,
+          0.5225095785440613,
+          0.4841954022988506
+        ]
+      },
+      "periodic_removed": {
+        "subject_probe_mean": NaN,
+        "subject_probe_std": NaN,
+        "subject_probe_bas": [
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN
+        ],
+        "state_probe_mean": 0.6312260536398467,
+        "state_probe_std": 0.033028620018326925,
+        "state_probe_bas": [
+          0.7025862068965517,
+          0.5986590038314177,
+          0.6403256704980842,
+          0.6369731800766283,
+          0.6369731800766283,
+          0.6197318007662835,
+          0.6125478927203065,
+          0.6020114942528736
+        ]
+      },
+      "both_removed": {
+        "subject_probe_mean": NaN,
+        "subject_probe_std": NaN,
+        "subject_probe_bas": [
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN
+        ],
+        "state_probe_mean": 0.570522030651341,
+        "state_probe_std": 0.056599591732587516,
+        "state_probe_bas": [
+          0.6331417624521073,
+          0.5363984674329503,
+          0.5574712643678161,
+          0.6159003831417624,
+          0.5708812260536398,
+          0.6436781609195402,
+          0.5225095785440613,
+          0.4841954022988506
+        ]
+      }
+    },
+    "cbramod": {
+      "original": {
+        "subject_probe_mean": NaN,
+        "subject_probe_std": NaN,
+        "subject_probe_bas": [
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN
+        ],
+        "state_probe_mean": 0.5943486590038314,
+        "state_probe_std": 0.025453399066039085,
+        "state_probe_bas": [
+          0.6230842911877394,
+          0.5814176245210728,
+          0.5397509578544062,
+          0.5953065134099617,
+          0.5986590038314177,
+          0.6159003831417624,
+          0.5986590038314177,
+          0.6020114942528736
+        ]
+      },
+      "aperiodic_removed": {
+        "subject_probe_mean": NaN,
+        "subject_probe_std": NaN,
+        "subject_probe_bas": [
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN
+        ],
+        "state_probe_mean": 0.7235991379310345,
+        "state_probe_std": 0.06292925240887175,
+        "state_probe_bas": [
+          0.7509578544061303,
+          0.7854406130268199,
+          0.7337164750957854,
+          0.8026819923371648,
+          0.7576628352490422,
+          0.6609195402298851,
+          0.664272030651341,
+          0.6331417624521073
+        ]
+      },
+      "periodic_removed": {
+        "subject_probe_mean": NaN,
+        "subject_probe_std": NaN,
+        "subject_probe_bas": [
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN
+        ],
+        "state_probe_mean": 0.5978208812260537,
+        "state_probe_std": 0.022128228613557836,
+        "state_probe_bas": [
+          0.6230842911877394,
+          0.5814176245210728,
+          0.553639846743295,
+          0.5953065134099617,
+          0.6125478927203065,
+          0.6159003831417624,
+          0.5986590038314177,
+          0.6020114942528736
+        ]
+      },
+      "both_removed": {
+        "subject_probe_mean": NaN,
+        "subject_probe_std": NaN,
+        "subject_probe_bas": [
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN
+        ],
+        "state_probe_mean": 0.7218630268199233,
+        "state_probe_std": 0.06225461531358011,
+        "state_probe_bas": [
+          0.7370689655172413,
+          0.7854406130268199,
+          0.7337164750957854,
+          0.8026819923371648,
+          0.7576628352490422,
+          0.6609195402298851,
+          0.664272030651341,
+          0.6331417624521073
+        ]
+      }
+    },
+    "reve": {
+      "original": {
+        "subject_probe_mean": NaN,
+        "subject_probe_std": NaN,
+        "subject_probe_bas": [
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN
+        ],
+        "state_probe_mean": 0.6628951149425287,
+        "state_probe_std": 0.021023661273672372,
+        "state_probe_bas": [
+          0.6992337164750958,
+          0.6542145593869731,
+          0.6508620689655172,
+          0.6681034482758621,
+          0.6853448275862069,
+          0.6403256704980842,
+          0.6647509578544062,
+          0.6403256704980842
+        ]
+      },
+      "aperiodic_removed": {
+        "subject_probe_mean": NaN,
+        "subject_probe_std": NaN,
+        "subject_probe_bas": [
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN
+        ],
+        "state_probe_mean": 0.656669061302682,
+        "state_probe_std": 0.044046752121975355,
+        "state_probe_bas": [
+          0.7337164750957854,
+          0.6748084291187739,
+          0.6575670498084292,
+          0.6230842911877394,
+          0.6920498084291188,
+          0.6575670498084292,
+          0.6020114942528736,
+          0.6125478927203065
+        ]
+      },
+      "periodic_removed": {
+        "subject_probe_mean": NaN,
+        "subject_probe_std": NaN,
+        "subject_probe_bas": [
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN
+        ],
+        "state_probe_mean": 0.6646312260536398,
+        "state_probe_std": 0.024704408258517527,
+        "state_probe_bas": [
+          0.7131226053639848,
+          0.6681034482758621,
+          0.6508620689655172,
+          0.6542145593869731,
+          0.6853448275862069,
+          0.6403256704980842,
+          0.6647509578544062,
+          0.6403256704980842
+        ]
+      },
+      "both_removed": {
+        "subject_probe_mean": NaN,
+        "subject_probe_std": NaN,
+        "subject_probe_bas": [
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN
+        ],
+        "state_probe_mean": 0.6584051724137931,
+        "state_probe_std": 0.045876233683684216,
+        "state_probe_bas": [
+          0.7337164750957854,
+          0.6748084291187739,
+          0.6575670498084292,
+          0.6230842911877394,
+          0.7059386973180077,
+          0.6575670498084292,
+          0.6020114942528736,
+          0.6125478927203065
+        ]
+      }
+    }
+  }
+}

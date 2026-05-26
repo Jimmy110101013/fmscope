@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.so
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Local data + weights (never committed)
+weights/
+/data/
+*.pt
+*.pth
+*.npz
+*.safetensors
+# Raw EEG extensions — license-restricted across all cohorts.
+*.bdf
+*.edf
+*.set
+*.fdt
+*.mat
+# External-cohort data tree: track only the README + the per-cohort
+# layout placeholders; ignore every actual file inside cohort subdirs.
+experiments/external_audits/data/*
+!experiments/external_audits/data/README.md
+# Whitelist: bundled paper reproducibility artifacts.
+!src/fmscope/paper_data/**/*.json
+!src/fmscope/paper_data/**/*.npz
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Outputs from local runs
+/tmp/
+/out/
+*.log

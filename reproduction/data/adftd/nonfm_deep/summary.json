@@ -1,0 +1,69 @@
+{
+  "dataset": "adftd",
+  "split": "split1",
+  "protocol": "5-fold StratifiedGroupKFold subject-disjoint",
+  "seeds": [
+    42,
+    123,
+    2024
+  ],
+  "last_updated": "2026-04-24",
+  "eegnet": {
+    "lr": "1e-3",
+    "per_seed": {
+      "42": {
+        "subject_bal_acc": 0.8161,
+        "subject_acc": 0.8,
+        "subject_f1": 0.7979,
+        "subject_kappa": 0.6097,
+        "n_samples": 65
+      },
+      "123": {
+        "subject_bal_acc": 0.7917,
+        "subject_acc": 0.7692,
+        "subject_f1": 0.7626,
+        "subject_kappa": 0.5554,
+        "n_samples": 65
+      },
+      "2024": {
+        "subject_bal_acc": 0.6743,
+        "subject_acc": 0.6615,
+        "subject_f1": 0.6591,
+        "subject_kappa": 0.3373,
+        "n_samples": 65
+      }
+    },
+    "mean_bal_acc": 0.7607,
+    "std_bal_acc_ddof1": 0.07581266384978172,
+    "n_seeds": 3
+  },
+  "shallowconvnet": {
+    "lr": "5e-4",
+    "per_seed": {
+      "42": {
+        "subject_bal_acc": 0.7677,
+        "subject_acc": 0.7538,
+        "subject_f1": 0.7521,
+        "subject_kappa": 0.5181,
+        "n_samples": 65
+      },
+      "123": {
+        "subject_bal_acc": 0.6676,
+        "subject_acc": 0.6615,
+        "subject_f1": 0.662,
+        "subject_kappa": 0.3286,
+        "n_samples": 65
+      },
+      "2024": {
+        "subject_bal_acc": 0.7126,
+        "subject_acc": 0.7077,
+        "subject_f1": 0.7084,
+        "subject_kappa": 0.4183,
+        "n_samples": 65
+      }
+    },
+    "mean_bal_acc": 0.7159666666666666,
+    "std_bal_acc_ddof1": 0.050134851484105715,
+    "n_seeds": 3
+  }
+}
