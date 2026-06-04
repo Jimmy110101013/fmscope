@@ -6,11 +6,11 @@ date-released: 2026-05-26
 license: MIT
 type: software
 authors:
-  - name: "Anonymous"
+  - name: "Jun You Lin"
 preferred-citation:
   type: article
   title: "The Identity Trap in EEG Foundation Models: A Diagnostic Audit"
   authors:
-    - name: "Anonymous"
+    - name: "Jun You Lin"
   year: 2026
   status: in-review
